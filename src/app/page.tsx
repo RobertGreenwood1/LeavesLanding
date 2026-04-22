@@ -113,14 +113,14 @@ export default function Home() {
           </h2>
 
           {/* App Store Button */}
-          <div className="flex items-center justify-center mb-10">
+          <div className="flex items-center justify-center mb-2">
             <a
               href="https://apps.apple.com/us/app/tbreak-quit-weed/id6751524324"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Image
-                src="https://ext.same-assets.com/2477531973/2387476760.webp"
+                src="/app-store-badge.svg"
                 alt="Download on the App Store"
                 width={160}
                 height={48}
@@ -131,17 +131,17 @@ export default function Home() {
         </header>
 
         {/* Phone Screenshot */}
-        <main className="flex justify-center mb-12">
+        <main className="flex justify-center mb-2">
           <Image
-            src="/phone2.png"
+            src="/sccc.png"
             alt="TBreak App Screenshot"
-            width={300}
-            height={650}
+            width={360}
+            height={780}
             className="object-contain"
           />
         </main>
         {/* Features Section */}
-        <section className="py-12">
+        <section className="pt-2 pb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-[#1e1d1b] mb-10">
             Your journey to sobriety starts here
           </h2>
@@ -189,7 +189,7 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               <Image
-                src="https://ext.same-assets.com/2477531973/2387476760.webp"
+                src="/app-store-badge.svg"
                 alt="Download on the App Store"
                 width={160}
                 height={48}
